@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -6,6 +13,11 @@ header {
     box-shadow: 3px 3px 3px black;
     align-items: center;
     
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo-menu {
@@ -46,6 +58,11 @@ a {
     align-items: center;
 }
 
+.icon {
+    height: 15px;
+    align-items: center;
+}
+
 
 
 
@@ -53,6 +70,7 @@ a {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -128,6 +146,7 @@ a {
     background-position: top center;
     flex-direction: column;
     margin: 50px;
+    margin-bottom: 1px;
 }
 
 
@@ -180,6 +199,290 @@ main {
     box-shadow: 0px 0px 2px black;
 }
 
+.block2 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.block2 > div > img {
+    display: flex;
+    width: 100%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.block2 > div > h2 {
+    font-size: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 
+.botao4 {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao4:hover {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 3px black;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+
+.block3 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.block3 > div > img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.botao5 {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao5:hover {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    transform: scale(0.9);
+    background-color: rgba(0, 0, 0, 0.142);
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.5s;
+}
+
+.block4 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block4 > div > img {
+    width: 100%;
+    display: flex;
+}
+
+.texto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.block4 > div > h2 {
+    font-size: 30px;
+}
+
+.block4 > div > p {
+    font-size: 15px;
+}
+
+.botao6 {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.botao6:hover {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    transform: scale(0.9);
+    background-color: rgba(0, 0, 0, 0.142);
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.5s;
+}
+
+.block5 {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.block5 > div > img {
+    width: 100%;
+    display: flex;
+}
+
+.botao7 {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao7:hover {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0px 3px black;
+}
+
+
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    box-shadow: 0px 0px 3px 2px black;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coluna > ul > li > a {
+    color: rgba(0, 0, 0, 0.46);
+    justify-content: center;
+}
+
+.coluna > ul > li > a:hover {
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.colunas {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.icons > img {
+    height: 25px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons > img:hover {
+    height: 25px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
 
