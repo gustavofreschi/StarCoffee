@@ -1,0 +1,185 @@
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    box-shadow: 3px 3px 3px black;
+    align-items: center;
+    
+}
+
+.logo-menu {
+    display: flex;
+}
+
+.logo-menu > img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 550px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu2 > li {
+    float: right;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.botao-loja {
+   
+}
+
+
+.botao {
+    margin: 10px;
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.botao:hover {
+    margin: 10px;
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0px 0px 2px black;
+    background-color: rgba(0, 0, 0, 0.181);
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+.botao2 {
+    margin: 10px;
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+ 
+}
+
+.botao2:hover {
+    margin: 10px;
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    transform: scale(0.9);
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.5s;
+ 
+}
+
+
+
+.cafe {
+    background-image: url(img/img/capasite.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+
+.block {
+    background-color: rgba(0, 128, 0, 0.168);
+    padding: 70px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.block > h3 {
+    text-align: center;
+}
+
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.button {
+    padding: 12px;
+    margin: 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 110px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    padding: 12px;
+    margin: 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 110px;
+    margin-top: 30px;
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.242);
+    box-shadow: 0px 0px 2px black;
+}
+
+
+
+
